@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: "Circe";
+	src: url("./assets/fonts/Circe-Regular.eot");
+	src: local("Circe"), local("Circe-Regular"),
+		url("./assets/fonts/Circe-Regular.eot?#iefix") format("embedded-opentype"),
+		url("./assets/fonts/Circe-Regular.woff") format("woff"),
+		url("./assets/fonts/Circe-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(./assets/images/background.jpg);
+	font-family: Circe;
+	color: #333333;
+	font-size: 16px;
+	line-height: 24px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+a:hover {
+	color: rgb(15, 15, 201);
+	text-decoration: underline;
+}
+.wrapper {
+	display: flex;
+}
+
+.sidebar {
+	padding: 38px 32px;
+	position: fixed;
+	height: 100vh;
+	background-color: #0E6CDD;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 100;
+}
+.sidebar__footer {
+	position: absolute;
+	bottom: 38px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.sidebar__footer a:nth-child(1) {
+	margin-bottom: 15px;
+}
+
+
+.register {
+	width: 50%;
+	position: absolute;
+	right: 0;
+	background-color: #fff;
+	padding: 48px 136px;
+}
+.register__header {
+	margin-bottom: 109px;
+}
+.register__form {
+	width: 348px;
+}
+.register__form-title {
+	font-size: 24px;
+	line-height: 32px;
+}
+.register__form-text {
+	margin-bottom: 48px;
+}
+
+.block {
+	background-color: #fff;
+	padding: 40px 32px;
+}
+.input {
+	margin-bottom: 32px;
+}
+.input label {
+	color: rgba(0, 92, 204, 0.5);
+	background-color: #fff;
+	padding: 5px;
+	position: relative;
+	bottom: -10px;
+	left: 15px;
+}
+.input input {
+	width: 100%;
+	border: 1px solid #0e6cdd;
+	border-radius: 2px;
+	padding: 16px 24px;
+}
+.btn {
+	margin-top: 40px;
+	margin-bottom: 24px;
+	background: #ffd740;
+	border-radius: 2px;
+	padding: 12px 120px;
+	width: 100%;
+	border: none;
+	transition: background-color 0.3s;
+}
+.btn:hover {
+	background-color: #d1b038;
+}
+.register__form-descr {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.section {
+	background-color: rgb(241, 242, 247);
+	width: 100%;
+	height: 100vh;
+	padding: 32px;
+	padding-left: 132px;
+}
+.section__title {
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 15px;
+}
+.companies-box {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 30px;
+}
+.companies__create {
+	background-color: #fff;
+	padding: 40px 32px;
+	width: 368px;
+}
+.companies__create-text {
+	margin-bottom: 24px;
+}
+.companies__create-btn {
+	background: #ffd740;
+	border-radius: 2px;
+	padding: 12px;
+	width: 100%;
+	border: none;
+	transition: background-color 0.3s;
+	color: #000;
+}
+.companies__create-btn:hover {
+	background-color: #d1b038;
+	color: #000;
+	text-decoration: none;
+}
+
+.company {
+	background-color: #fff;
+	padding: 40px 32px;
+	width: 368px;
+}
+.company h2 {
+	font-size: 24px;
+	line-height: 32px;
+	color: #005ccc;
+	margin-bottom: 16px;
+}
+.company li {
+	color: #77889c;
+}
+.company li b {
+	color: #000;
+}
+
+
+.company__form {
+	max-width: 960px;
+}

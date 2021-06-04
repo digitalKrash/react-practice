@@ -1,0 +1,68 @@
+{
+  "users": [
+
+  ],
+  "companies": [
+    {
+      "id": 0,
+      "name": "Компания 1",
+      "adress": "itl.wiki"
+    },
+    {
+      "id": 1,
+      "name": "Компания 2",
+      "adress": "itl.wiki"
+    },
+    {
+      "id": 2,
+      "name": "Компания 3",
+      "adress": "itl.wiki"
+    },
+    {
+      "name": "fhghf",
+      "adress": "fghf",
+      "id": 3
+    },
+    {
+      "name": "hdhd",
+      "adress": "hhdhd",
+      "id": 4
+    },
+    {
+      "name": "ergerg",
+      "adress": "geg",
+      "id": 5
+    },
+    {
+      "name": "fgnf",
+      "email": "nfn",
+      "phone": "nfnf",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "fgnf",
+      "email": "nfn",
+      "phone": "8888",
+      "password": "nfnfn",
+      "id": 7
+    },
+    {
+      "name": "Имя",
+      "email": "111.@gmail.com",
+      "phone": "87071126055",
+      "password": "password",
+      "id": 8
+    },
+    {
+      "name": "gg",
+      "adress": "bgbg",
+      "id": 9
+    },
+    {
+      "name": "44",
+      "adress": "44",
+      "id": 10
+    }
+  ]
+}
